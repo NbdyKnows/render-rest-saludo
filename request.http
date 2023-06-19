@@ -1,0 +1,30 @@
+GET https://render-rest-postgresql-saludo.onrender.com/demo/all
+
+###
+
+POST https://render-rest-postgresql-saludo.onrender.com/demo/add
+Content-Type: application/x-www-form-urlencoded
+
+name=Claudio
+&email=claudio@gmail.com
+
+###
+GET https://render-rest-postgresql-saludo.onrender.com/demo/ver/2
+
+###
+PUT https://render-rest-postgresql-saludo.onrender.com/demo/edit
+Content-Type: application/x-www-form-urlencoded
+
+id=2
+&name=Claudio
+&email=claudio@gmail.com
+###
+
+DELETE https://render-rest-postgresql-saludo.onrender.com/demo/del
+Content-Type: application/x-www-form-urlencoded
+
+id=1
+
+###
+
+GET https://render-rest-postgresql-saludo.onrender.com/demo/get/report
